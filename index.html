@@ -12,21 +12,22 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-     <!-- google font style -->
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link
-       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
-       rel="stylesheet"
-     />
-     
+    <!-- google font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- bootstrap icon -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="projject2.css" />
-    <title>Hello, world!</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Quantum Athestic School</title>
   </head>
   <body>
     <header class="header-container">
@@ -49,7 +50,9 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Course</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Course</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about">About</a>
@@ -60,7 +63,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Modal</a>
               </li>
-             
             </ul>
           </div>
         </div>
@@ -84,13 +86,17 @@
                 class="position-relative d-flex flex-column justify-content-start home-image-small-container"
               >
                 <div class="img1">
-                  <img src="./images/Hex (1).png" alt="" />
+                  <img
+                    src="./images/Hex (1).png"
+                    alt="rectangle"
+                    loading="eager"
+                  />
                 </div>
                 <div class="img2">
-                  <img src="./images/Hex.png" alt="" />
+                  <img src="./images/Hex.png" alt="hex" />
                 </div>
                 <div class="mt-5 home-image-second-container">
-                  <img class="img3" src="./images/Hexes.png" alt="" />
+                  <img class="img3" src="./images/Hexes.png" alt="hexes" />
                 </div>
               </div>
             </div>
@@ -119,10 +125,10 @@
                 asperiores labore consequuntur ab repellendus?
               </p>
               <div class="mt-5 about-section-first-image">
-                <img src="./images/Hex (1).png" alt="" />
+                <img src="./images/Hex (1).png" alt="hex" loading="lazy" />
               </div>
               <div class="about-section-second-img">
-                <img src="./images/Hex (1).png" alt="" />
+                <img src="./images/Hex (1).png" alt="hexas" loading="lazy" />
               </div>
             </div>
           </div>
@@ -153,7 +159,7 @@
       <div class="row z-1 py-30 mx-0 booking-section-container">
         <div class="col-lg-6 z-2 self-aligen-center">
           <div class="z-3 booking-section-leftside-image">
-            <img src="./images/Hexes.png" alt="" />
+            <img src="./images/Hexes.png" alt="hexas" loading="lazy" />
           </div>
           <h3 class="mt-3 booking-heading">Ready to take next step</h3>
           <div class="p-2 booking-description-and-btn">
@@ -169,20 +175,21 @@
         </div>
         <div class="col-lg-6 me-0 mt-auto allImage-box-container">
           <div class="booking-section-mainSide-image">
-            <img src="./images/Photo.png" alt="" />
+            <img src="./images/Photo.png" alt="booking" loading="lazy" />
           </div>
           <div class="mt-3 booking-section-rightSide-img1">
-            <img src="./images/Hex (1).png" alt="" />
+            <img src="./images/Hex (1).png" alt="hexas" loading="lazy" />
           </div>
           <div class="my-3 booking-section-rightSide-img2">
-            <img src="./images/Hex.png" alt="" />
+            <img src="./images/Hex.png" alt="hexes" loading="lazy" />
           </div>
           <div class="booking-section-rightSide-img3">
-            <img src="./images/Hexes.png" alt="" />
+            <img src="./images/Hexes.png" alt="hexes" loading="lazy" />
           </div>
         </div>
       </div>
     </section>
+
     <!-- contact section -->
     <section class="py-5 g-3 contact-section">
       <div class="container">
@@ -202,7 +209,6 @@
             <h5>Quantum Anesthetics</h5>
             <p class="fs-6">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-
             </p>
             <div class="my-3 d-flex justify-content-evenly icon-container">
               <div class="icons-container-box">
@@ -220,60 +226,47 @@
               voluptatem repudiandae ex rerum.
             </p>
           </div>
-          <hr class="my-5">
+          <hr class="my-5" />
         </div>
       </div>
     </section>
 
     <!-- footer section -->
     <footer class="footer-section">
-        <div class="container">
-          <div class="row gx-3 justify-content-center">
-            <div class="col-lg-4">
-              <div class="footer-image-container">
-                <img
-                  class="logo-img"
-                  src="./images/Logo copy (1).png"
-                  alt="logo"
-                />
-              </div>
-              <p>© 2023 Copyright Quantum Aesthetics. All Rights Reserved.</p>
+      <div class="container">
+        <div class="row gx-3 justify-content-center">
+          <div class="col-lg-4">
+            <div class="footer-image-container">
+              <img
+                class="logo-img"
+                src="./images/Logo copy (1).png"
+                alt="logo"
+                loading="lazy"
+              />
             </div>
-            <div class="col-lg-2">
-              <h6>Site nav</h6>
-              <p>courses</p>
-              <p>about</p>
-              <p>online</p>
-              <p>models</p>
-            </div>
-            <div class="col-lg-2">
-              <h6>Legal</h6>
-              <p>privacy policy</p>
-              <p>terms & conditions</p>
-              <p>Contact Us</p>
-            </div>
-            <div class="col-lg-4">
-              <h6>Get our Newsletter</h6>
-              <div class="input-box-container">
-                <input type="text" placeholder="Enter Your Email Adress" />
-              </div>
+            <p>© 2023 Copyright Quantum Aesthetics. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-2">
+            <h6>Site nav</h6>
+            <p>courses</p>
+            <p>about</p>
+            <p>online</p>
+            <p>models</p>
+          </div>
+          <div class="col-lg-2">
+            <h6>Legal</h6>
+            <p>privacy policy</p>
+            <p>terms & conditions</p>
+            <p>Contact Us</p>
+          </div>
+          <div class="col-lg-4">
+            <h6>Get our Newsletter</h6>
+            <div class="input-box-container">
+              <input type="text" placeholder="Enter Your Email Adress" />
             </div>
           </div>
         </div>
+      </div>
     </footer>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
